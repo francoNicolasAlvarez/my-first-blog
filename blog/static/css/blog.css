@@ -1,18 +1,22 @@
 h1 a, h2 a {
-    color: #480586;
+    color: #045708;
     font-family: 'Lobster';
 }
 body {
     padding-left: 15px;
+    background-color:rgb(126, 123, 218);
+    background-image: linear-gradient(to bottom, rgb(126, 123, 218) 0%, rgb(126, 123, 218) 100%), linear-gradient(to bottom, rgb(126, 123, 218) 0%, rgb(126, 123, 218) 100%);
+    background-clip: content-box, padding-box;
+    
 }
 .page-header {
-    background-color: #f7fc00;
+    background-color: #700101;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #42265c;
+    color: #04e417;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -38,7 +42,7 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #000000;
+    color: rgb(126, 123, 218);
     float: right;
     font-size: 26pt;
     margin-right: 20px;
@@ -49,5 +53,11 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #000000;
+    color: #e5ff00;
+}
+html{
+    background-color: rgb(126, 123, 218);
+}
+div{
+    background-color: rgb(126, 123, 218);
 }
