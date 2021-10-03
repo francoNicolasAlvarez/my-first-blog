@@ -19,7 +19,9 @@ body {
     color: #04e417;
     font-size: 36pt;
     text-decoration: none;
+    justify-content: center;
 }
+
 
 .content {
     margin-left: 40px;
@@ -27,6 +29,7 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
+    color: #04e417;
 }
 
 .date {
@@ -53,7 +56,8 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: #e5ff00;
+    color: #04e417;
+    
 }
 html{
     background-color: rgb(126, 123, 218);
